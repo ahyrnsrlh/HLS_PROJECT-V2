@@ -1,0 +1,40 @@
+{
+  "data_shape": [
+    3000,
+    6
+  ],
+  "processed_shape": [
+    3000,
+    8
+  ],
+  "feature_shape": [
+    3000,
+    5002
+  ],
+  "target_shape": [
+    3000,
+    17
+  ],
+  "best_clusters": 3,
+  "best_silhouette": 0.4140846028253046,
+  "model_results": {
+    "logistic_regression": {
+      "f1_micro": 0.30293159609120524,
+      "f1_macro": 0.06355194512006578
+    },
+    "random_forest": {
+      "f1_micro": 0.5052356020942408,
+      "f1_macro": 0.22491319571744817
+    },
+    "logistic_regression_hybrid": {
+      "f1_micro": 0.2991869918699187,
+      "f1_macro": 0.0630381636558558
+    },
+    "random_forest_hybrid": {
+      "f1_micro": 0.48620236530880423,
+      "f1_macro": 0.205088491994769
+    }
+  },
+  "best_model": "random_forest",
+  "best_f1_micro": 0.5052356020942408
+}
